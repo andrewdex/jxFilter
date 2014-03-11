@@ -1,6 +1,6 @@
 /*
 jxFilter
-JS External Script Safe Loader 
+JS External Script Safe Filter 
 Author: Dilusha Gonagala
 Version : 1.0
 License: MIT
@@ -23,49 +23,49 @@ if (isIe7) {
 
     "use strict";
 
-    window.jxLoader = {
+    window.jxFilter = {
 
         loadScript: function (url, callback) {
 
-            jxLoader.script = document.createElement("script");
-            jxLoader.script.type = "text/javascript";
+            jxFilter.script = document.createElement("script");
+            jxFilter.script.type = "text/javascript";
 
-            if (jxLoader.script.readyState) { //IE
-                jxLoader.script.onreadystatechange = function () {
-                    if (jxLoader.script.readyState == "loaded" ||
-                        jxLoader.script.readyState == "complete") {
-                        jxLoader.script.onreadystatechange = null;
+            if (jxFilter.script.readyState) { //IE
+                jxFilter.script.onreadystatechange = function () {
+                    if (jxFilter.script.readyState == "loaded" ||
+                        jxFilter.script.readyState == "complete") {
+                        jxFilter.script.onreadystatechange = null;
                         //  callback();
                     }
 
-                    if (jxLoader.script.readyState == "error") {
+                    if (jxFilter.script.readyState == "error") {
 
                     }
                 };
 
-                jxLoader.script.onerror = function () {
+                jxFilter.script.onerror = function () {
 
                 };
             } else { //Others
 
-                jxLoader.script.onload = function () {
+                jxFilter.script.onload = function () {
 
                     callback();
                 };
-                jxLoader.script.onerror = function () {
+                jxFilter.script.onerror = function () {
 
                 };
             }
 
-            if (jxLoader.ie_ver == 8) {
+            if (jxFilter.ie_ver == 8) {
 
                 alert("Its IE");
 
             } else {
 
-                jxLoader.script.src = url;
+                jxFilter.script.src = url;
 
-                document.getElementsByTagName("head")[0].appendChild(jxLoader.script);
+                document.getElementsByTagName("head")[0].appendChild(jxFilter.script);
             }
 
         }
