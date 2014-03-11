@@ -1,5 +1,5 @@
 /*
-jxLoader
+jxFilter
 JS External Script Safe Loader 
 Author: Dilusha Gonagala
 Version : 1.0
