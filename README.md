@@ -1,4 +1,4 @@
-jxLoader
+jxFilter
 ========
 
-jxLoader - JavaScript External Script Safe Loader
+jxFilter - JavaScript External Script Safe Filter
