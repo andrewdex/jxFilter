@@ -19,7 +19,6 @@ License: MIT
             ie7: 'false',
             ie8: 'false',
             others: 'true'
-
         },
 
         jxFilter_IEStatus: "",
