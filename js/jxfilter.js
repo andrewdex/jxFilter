@@ -96,7 +96,6 @@ License: MIT
          if (typeof newOptions === "object") {
 
                 this.loadEnable = newOptions;
-
             }
         }
 
