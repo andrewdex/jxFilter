@@ -37,7 +37,6 @@ License: MIT
 
                             callback();
                         }
-
                     }
 
                     if (jxFilter.script.readyState == "error") {
