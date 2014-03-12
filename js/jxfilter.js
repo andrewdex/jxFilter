@@ -7,7 +7,6 @@ github : https://github.com/andrewdex
 Version : 1.0 Beta
 License: MIT
 */
-
 (function (window, document) {
 
     "use strict";
