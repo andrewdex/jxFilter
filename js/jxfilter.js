@@ -68,8 +68,6 @@ License: MIT
               
                 jxFilter.scriptLoader(url);
 
-
-
             } else if (jxFilter.loadEnable.others == 'true') {
 
                 if (jxFilter.jxFilter_IEStatus != "IE8" && jxFilter.jxFilter_IEStatus != "IE7") {
