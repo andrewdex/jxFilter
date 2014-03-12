@@ -48,7 +48,6 @@ License: MIT
                 };
 
                 jxFilter.script.onerror = function () {
-
                 };
             } else { //Others
 
