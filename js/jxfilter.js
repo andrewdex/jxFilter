@@ -78,7 +78,6 @@ License: MIT
             } else {
 
                 //console.log("Nothing to load");
-
             }
 
         },
